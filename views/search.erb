@@ -1,1 +1,17 @@
-search.erb
+<h1>Search Available Titles</h1>
+
+<hr>
+
+<form action='/search' method='POST'>
+  <input type='text' name='title' />
+  <input type='submit' />
+</form>
+
+<% if @yes_result %>
+	<p><%= @yes_result %></p>
+<% else %>
+	<p>Out of Stock</p> 
+<% end %>
+
+
+<a href='/'>Home</a>
