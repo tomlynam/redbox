@@ -1,0 +1,12 @@
+<h1>Your Redbox Cart</h1>
+
+<% if $cart %>
+	<% $cart.each do |item| %>
+		<p><%= item %></p>
+		<p>Price: $0.99</p>
+	<% end %>
+<% end %>
+
+<form action='/cart' method='POST'>
+	<button>Checkout</button>
+</form>

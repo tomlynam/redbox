@@ -9,9 +9,18 @@
 
 <% if @yes_result %>
 	<p><%= @yes_result %></p>
+	<p>Year: <%= @movie_year %></p>
+	<p>Rating: <%= @movie_rating %></p>
+
+
+	<button><a href='/cart'>Add to cart</a></button>
+
+
 <% else %>
 	<p>Out of Stock</p> 
 <% end %>
 
 
-<a href='/'>Home</a>
+<div>
+	<a href='/'>Home</a>
+</div>
