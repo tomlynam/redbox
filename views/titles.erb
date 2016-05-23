@@ -1,11 +1,9 @@
 
-
+<!-- value.values.first -->
 
 
 <ul>
-	<% @titles.each do |key, value| %>
-		<% value.each do |key2, value2| %>
-			<li><%= value2 %></li>
+	<% @titles.each do |title| %>
+			<li><%= title[:name] %></li>
 		<% end %>
-	<% end %>
 </ul> 
