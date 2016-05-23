@@ -12,6 +12,7 @@ end
 
 
 get '/titles' do
+	@list = Title.new
 	erb :titles
 end
 
