@@ -1,1 +1,153 @@
-/*css file*/
+body {
+	background-color:  #e6e6e6;
+}
+
+
+h1 {
+	font-size: 50px;
+	width: 100%;
+	color: white;
+	background-color: red; 
+	font-family: lucida grade; 
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	border-style: solid;
+  border-color: red;
+  border-width: 20px;  
+}
+
+li {
+	font-size: 30px;
+	
+}
+
+.titles {
+	font-size: 10px;
+}
+
+.search {
+	font-size: 30px;
+}
+
+.revenant {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;  
+}
+
+.room {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.mad_max {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.bridge {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.spotlight {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.martian {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.steve {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.brooklyn {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.furious {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.big_short {
+	height: 180px;
+	width: 120px;
+	float: left;
+	padding: 10px;
+	padding-top: 20px;
+}
+
+.movie_border {
+	background-color: red; 
+}
+
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.logo {
+	height: 100px;
+	width: 240px;
+	position: absolute;
+  top: 33px;
+  right: 100px;  
+}
+
+.hr {
+	background-color: gray; 
+
+}
+
+.cart {
+	height: 70px;
+	width: 70px;
+	position: absolute;
+  top: 45px;
+  right: 10px; 
+  color: white;  
+}
+
+.background {
+	opacity: 0.6; 
+}

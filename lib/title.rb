@@ -15,5 +15,5 @@ class Title
 			{ name: 'The Big Short', year: 2015, rating: 5 }
 		]
 	end
-
 end
+
