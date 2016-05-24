@@ -12,6 +12,13 @@ get '/' do
 end
 
 
+post '/' do
+	$list
+	$cart = []
+	erb :index
+end
+
+
 get '/titles' do
 	$list
 	erb :titles
@@ -47,6 +54,5 @@ post '/cart' do
 	$cart.each do |item|
 	$list.titles.delete_if { |key| key[:name] == item }
 	end
+	erb :confirmation
 end
-
-

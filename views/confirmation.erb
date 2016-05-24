@@ -1,0 +1,8 @@
+<h1>Success!</h1>
+
+
+<% if $cart %>
+	<% $cart.each do |item| %>
+		<p>Thanks for renting <%= item %>.</p>
+	<% end %>
+<% end %>
