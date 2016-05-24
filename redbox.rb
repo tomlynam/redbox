@@ -11,6 +11,14 @@ get '/' do
 	erb :index
 end
 
+#testing this
+post '/' do
+	$list
+	$cart = []
+	erb :index
+end
+#testing
+
 
 get '/titles' do
 	$list
